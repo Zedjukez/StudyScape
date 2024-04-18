@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0a6663e5a81fc36418c97b20fdd3e273
+guid: 0e666713e69d28347bd60b9a4737650a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,223 +110,223 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bed1
+      name: MENU BOTTOM1
       rect:
         serializedVersion: 2
-        x: 7
-        y: 102
-        width: 51
-        height: 41
+        x: 4975
+        y: 4696
+        width: 1955
+        height: 450
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad9bd124efb4da94396a671b0eeb27db
-      internalID: -2007694909
+      spriteID: 5995afba8c7b3844ba004cde28862099
+      internalID: -680590636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bed2
+      name: HOME1
       rect:
         serializedVersion: 2
-        x: 58
-        y: 102
-        width: 44
-        height: 41
+        x: 4499
+        y: 6053
+        width: 265
+        height: 228
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bd93ecd5769cdb46ae8f0f597ac74b0
-      internalID: -458258776
+      spriteID: 489f68d21df9934418cd1dc4fc538719
+      internalID: -243895697
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: door1
+      name: PLANNEN1
       rect:
         serializedVersion: 2
-        x: 105
-        y: 105
-        width: 23
-        height: 38
+        x: 3308
+        y: 6016
+        width: 291
+        height: 269
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73a3729bc2813914ba74f8e30d15b44a
-      internalID: -1046112256
+      spriteID: 710dc071d9a88eb41b97bfec551e75ee
+      internalID: 300123414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: door2
+      name: AGENDA
       rect:
         serializedVersion: 2
-        x: 128
-        y: 105
-        width: 22
-        height: 38
+        x: 3282
+        y: 5656
+        width: 319
+        height: 349
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1dfec78f83441804ea4de269ad5b500e
-      internalID: -445206311
+      spriteID: a778a4f0c01153642991410f981a0278
+      internalID: 335106733
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rug1
+      name: SETIINGS1
       rect:
         serializedVersion: 2
-        x: 175
-        y: 65
-        width: 38
-        height: 21
+        x: 4049
+        y: 5695
+        width: 223
+        height: 286
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31aa9b1b843da114e96b7752587e0208
-      internalID: -370093236
+      spriteID: 517b6b3f5090e0d4a8966b16ffcd31f2
+      internalID: -1240723639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rug2
+      name: COIN1
       rect:
         serializedVersion: 2
-        x: 163
-        y: 96
-        width: 84
-        height: 43
+        x: 3349
+        y: 6292
+        width: 167
+        height: 198
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a5c93879da72a8408dc2324e8df02e3
-      internalID: -1163004682
+      spriteID: 46f13fab7cc679c428be824ffc2460f7
+      internalID: 379459710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lamp1
+      name: SHOP
       rect:
         serializedVersion: 2
-        x: 126
-        y: 82
-        width: 10
-        height: 12
+        x: 4073
+        y: 6031
+        width: 208
+        height: 250
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9da34ce866429a64daa647ba0d6c1710
-      internalID: 783703410
+      spriteID: 58f31bd3d0b12e24ca842dd152eca012
+      internalID: -2120008043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lamp2
+      name: popup
       rect:
         serializedVersion: 2
-        x: 111
-        y: 82
-        width: 9
-        height: 22
+        x: 0
+        y: 5406
+        width: 1590
+        height: 1224
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2901250218131b645beda244c397b45f
-      internalID: 936362542
+      spriteID: 5ed1d000795765546b0ffbb50ac2e5ba
+      internalID: -1728050872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Chair1
+      name: Taak1
       rect:
         serializedVersion: 2
-        x: 127
-        y: 46
-        width: 16
-        height: 23
+        x: 0
+        y: 1393
+        width: 1595
+        height: 3236
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38d1da20557a80446a847dab4a53ccdd
-      internalID: 1610395608
+      spriteID: 7f0dcd8aab2109b47aafdd1137ce2f12
+      internalID: 2061296481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chair2
+      name: SHOPSCHERM
       rect:
         serializedVersion: 2
-        x: 104
-        y: 44
-        width: 18
-        height: 24
+        x: 3595
+        y: 1505
+        width: 1678
+        height: 2209
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd26e5e5c98154f4b9485f1eaf9a6fd4
-      internalID: -236235786
+      spriteID: 80841b0d7ef532d42a16e274a20d7101
+      internalID: -602173625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: table1
+      name: plusknop
       rect:
         serializedVersion: 2
-        x: 68
-        y: 74
-        width: 23
-        height: 17
+        x: 3801
+        y: 5196
+        width: 403
+        height: 366
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,71 +334,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffd7dcb895b4fcd4fbddbafdd7b5b1eb
-      internalID: 1884898052
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: table2
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 70
-        width: 42
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 98ba5b35cc6de7745b20a5413fe54b30
-      internalID: 502520803
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Computer1
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 46
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 80f1c0e06c409b149a390454a1d2c6e1
-      internalID: 1762171625
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: computer2
-      rect:
-        serializedVersion: 2
-        x: 21
-        y: 37
-        width: 30
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc09999c25d13904a84d7d7c9a5687aa
-      internalID: 106487678
+      spriteID: fb6c77532781a6745b137b87eec0fa6f
+      internalID: 1309951478
       vertices: []
       indices: 
       edges: []
@@ -414,20 +351,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Chair1: 1610395608
-      Computer1: 1762171625
-      bed1: -2007694909
-      bed2: -458258776
-      chair2: -236235786
-      computer2: 106487678
-      door1: -1046112256
-      door2: -445206311
-      lamp1: 783703410
-      lamp2: 936362542
-      rug1: -370093236
-      rug2: -1163004682
-      table1: 1884898052
-      table2: 502520803
+      AGENDA: 335106733
+      COIN1: 379459710
+      HOME1: -243895697
+      MENU BOTTOM1: -680590636
+      PLANNEN1: 300123414
+      SETIINGS1: -1240723639
+      SHOP: -2120008043
+      SHOPSCHERM: -602173625
+      Taak1: 2061296481
+      plusknop: 1309951478
+      popup: -1728050872
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
