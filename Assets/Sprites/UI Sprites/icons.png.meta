@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 59793c0c8a1c18d4a86df92a97dee08f
+guid: ea4d8807359488a41859a8eab8f3595f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,34 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PopUp
+      name: dropdown
       rect:
         serializedVersion: 2
-        x: 16
-        y: 5438
-        width: 1591
-        height: 1192
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43511b8b5f6b3c94cb3d3b35db89fd87
-      internalID: -170415472
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: playbutton
-      rect:
-        serializedVersion: 2
-        x: 2160
-        y: 5425
-        width: 500
-        height: 247
+        x: 0
+        y: 58
+        width: 161
+        height: 132
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,8 +124,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef91f09d24ccf9d49ab8a45ed683c7ea
-      internalID: -632371404
+      spriteID: b993f813c930e7c4a881179e46d5bb70
+      internalID: -1625772307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dropup
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 58
+        width: 166
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6e76787de3e704d81e67381eafc77a
+      internalID: 153436117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exclamation
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 0
+        width: 115
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc89c66865f47d44b483de4a4c58c88
+      internalID: 325714343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: question
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 0
+        width: 104
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d617c36f27be0d4888dd4abf3f97ca4
+      internalID: 1680306419
       vertices: []
       indices: 
       edges: []
@@ -162,8 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PopUp: -170415472
-      playbutton: -632371404
+      dropdown: -1625772307
+      dropup: 153436117
+      exclamation: 325714343
+      question: 1680306419
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

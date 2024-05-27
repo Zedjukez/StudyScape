@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 59793c0c8a1c18d4a86df92a97dee08f
+guid: c224283d8ae328c4c83debe4f22a94aa
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,34 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PopUp
+      name: overworld
       rect:
         serializedVersion: 2
-        x: 16
-        y: 5438
-        width: 1591
-        height: 1192
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43511b8b5f6b3c94cb3d3b35db89fd87
-      internalID: -170415472
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: playbutton
-      rect:
-        serializedVersion: 2
-        x: 2160
-        y: 5425
-        width: 500
-        height: 247
+        x: 197
+        y: 66
+        width: 146
+        height: 199
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,8 +124,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef91f09d24ccf9d49ab8a45ed683c7ea
-      internalID: -632371404
+      spriteID: 475a76edd5e8c1641a3bb2189c2a21a3
+      internalID: 1751347901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo_textsprite
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 58
+        width: 182
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3895c50f1247ffa47bc8565bcd09d155
+      internalID: 1816006649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smile1
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 208
+        width: 86
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a7e922cee108848a710eac9179070e
+      internalID: -1358476865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutral1
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 147
+        width: 86
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83029f6f7ec81374f85d8402aa8b49c7
+      internalID: -716680282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sleep1_ow
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 91
+        width: 85
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa65e342354939a4180b767313ced1f7
+      internalID: 556735293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: excited1_ow
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 50
+        width: 85
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424ea8929e3cc5547b7269d99880415c
+      internalID: -354009889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: open1_ow
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 8
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c34d38f7e25ce141ba41efe21726f16
+      internalID: -1085626490
       vertices: []
       indices: 
       edges: []
@@ -162,8 +267,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PopUp: -170415472
-      playbutton: -632371404
+      excited1_ow: -354009889
+      neutral1: -716680282
+      open1_ow: -1085626490
+      overworld: 1751347901
+      robo_textsprite: 1816006649
+      sleep1_ow: 556735293
+      smile1: -1358476865
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
