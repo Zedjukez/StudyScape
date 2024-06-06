@@ -328,7 +328,7 @@ TextureImporter:
         width: 403
         height: 366
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -336,6 +336,48 @@ TextureImporter:
       bones: []
       spriteID: fb6c77532781a6745b137b87eec0fa6f
       internalID: 1309951478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBarMain
+      rect:
+        serializedVersion: 2
+        x: 3436
+        y: 4059
+        width: 66
+        height: 1523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6bfe5ea1c33b04e877dd16b42e9589
+      internalID: -604066002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScrollBarHandle
+      rect:
+        serializedVersion: 2
+        x: 3636
+        y: 5164
+        width: 109
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74943afe7fffc041bf18559897cc178
+      internalID: -46313312
       vertices: []
       indices: 
       edges: []
@@ -359,6 +401,8 @@ TextureImporter:
       SETIINGS1: -1240723639
       SHOP: -2120008043
       SHOPSCHERM: -602173625
+      ScrollBarHandle: -46313312
+      ScrollBarMain: -604066002
       Taak1: 2061296481
       plusknop: 1309951478
       popup: -1728050872

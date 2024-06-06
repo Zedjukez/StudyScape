@@ -39,7 +39,7 @@ public class PlanningScreen : MonoBehaviour
             return;
         }
 
-        Assignment newAssignment = new Assignment(name, type, deadline, hours, nonAvailableDays);
+        Assignment newAssignment = new Assignment(name, type, deadline, hours);
         assignmentManager.AddAssignment(newAssignment);
 
         ClearInputFields();

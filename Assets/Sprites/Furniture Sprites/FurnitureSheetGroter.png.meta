@@ -118,7 +118,7 @@ TextureImporter:
         width: 439
         height: 355
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -139,7 +139,7 @@ TextureImporter:
         width: 351
         height: 281
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -160,7 +160,7 @@ TextureImporter:
         width: 169
         height: 234
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -181,7 +181,7 @@ TextureImporter:
         width: 160
         height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -189,6 +189,216 @@ TextureImporter:
       bones: []
       spriteID: a016f20806b1a6b4e81b697e337926cc
       internalID: -60910249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door1
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 1089
+        width: 160
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cead48801cf1194b9383634932077e1
+      internalID: 703413948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door2
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1080
+        width: 160
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0688dabb17183fd47b0e8f49229401f8
+      internalID: 335896640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table2
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 698
+        width: 473
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d02ea23add021409a2c8f622022179
+      internalID: 1245408498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: table1
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 732
+        width: 234
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ddbc50d3ff425b478fdb80c2c2a38ff
+      internalID: 1138577371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp2
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 814
+        width: 91
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72090baf81d64747b93e709f301eccb
+      internalID: 417031855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp1
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 831
+        width: 84
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8807101012964da47a02577365dbddc7
+      internalID: 195908796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rug1
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 632
+        width: 384
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72697c8e27bbc84cb82f14ebf2c0eee
+      internalID: -2129006544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rug2
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 954
+        width: 854
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17277fc4b1d31284cbe6136c01036940
+      internalID: 16191290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chair2
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 447
+        width: 183
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd123d8dd772a44087d0b74bd14a513
+      internalID: -1987757796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC2
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 387
+        width: 295
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa67433bff145794a970365d5acaa201
+      internalID: 1188761442
       vertices: []
       indices: 
       edges: []
@@ -206,8 +416,18 @@ TextureImporter:
     nameFileIdTable:
       Bed2: 614564770
       PC1: -60910249
+      PC2: 1188761442
       chair1: 492912177
+      chair2: -1987757796
+      door1: 703413948
+      door2: 335896640
+      lamp1: 195908796
+      lamp2: 417031855
       newbed1: 1267030235
+      rug1: -2129006544
+      rug2: 16191290
+      table1: 1138577371
+      table2: 1245408498
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

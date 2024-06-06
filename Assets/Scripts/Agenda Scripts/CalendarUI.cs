@@ -8,14 +8,14 @@ public class CalendarUI : MonoBehaviour
     public GameObject dayPrefab;
     public Transform calendarParent;
     public AgendaScreen agendaScreen;
-    public HighlightCurrentDay highlightCurrentDay; // Reference to HighlightCurrentDay script
+    public HighlightCurrentDay highlightCurrentDay;
 
     private Dictionary<int, List<Assignment>> assignmentsPerDay = new Dictionary<int, List<Assignment>>();
 
     private void Start()
     {
         PopulateCalendar();
-        highlightCurrentDay.HighlightToday(); // Call HighlightToday after populating the calendar
+        highlightCurrentDay.HighlightToday();
     }
 
     private void PopulateCalendar()
@@ -27,7 +27,6 @@ public class CalendarUI : MonoBehaviour
             int day = i;
             dayButton.GetComponent<Button>().onClick.AddListener(() => OnDaySelected(day));
 
-            // Initialize the assignment list for each day
             assignmentsPerDay[day] = new List<Assignment>();
         }
     }
@@ -43,6 +42,15 @@ public class CalendarUI : MonoBehaviour
         UpdateDayButton(day);
     }
 
+    public void RemoveAssignmentFromDay(int day, Assignment assignment)
+    {
+        if (assignmentsPerDay.ContainsKey(day))
+        {
+            assignmentsPerDay[day].Remove(assignment);
+            UpdateDayButton(day);
+        }
+    }
+
     public void UpdateCalendar()
     {
         for (int day = 1; day <= 31; day++)
@@ -55,8 +63,37 @@ public class CalendarUI : MonoBehaviour
     {
         Transform dayButton = calendarParent.GetChild(day - 1);
         DayUI dayUI = dayButton.GetComponent<DayUI>();
-
-        // Update the status bar based on the assignments
         dayUI.UpdateStatusBar(assignmentsPerDay[day]);
+    }
+
+    public void MoveAssignment(int fromDay, int toDay, Assignment assignment)
+    {
+        if (toDay < System.DateTime.Now.Day || toDay > assignment.Deadline)
+        {
+            Debug.LogError("Cannot move task to the selected day.");
+            return;
+        }
+
+        RemoveAssignmentFromDay(fromDay, assignment);
+        AddAssignmentToDay(toDay, assignment, assignment.HoursPerDay(toDay));
+        UpdateCalendar();
+    }
+
+    public void MarkSessionAsCompleted(int day, Assignment assignment)
+    {
+        if (assignmentsPerDay.ContainsKey(day))
+        {
+            foreach (var assign in assignmentsPerDay[day])
+            {
+                if (assign == assignment)
+                {
+                    // Mark the session as completed
+                    assign.Hours--; // Assuming each session is 1 hour
+                    TMP_Text detailsText = agendaScreen.dayDetailsText;
+                    detailsText.text += "\n<color=green>voltooid!</color>";
+                }
+            }
+            UpdateDayButton(day);
+        }
     }
 }

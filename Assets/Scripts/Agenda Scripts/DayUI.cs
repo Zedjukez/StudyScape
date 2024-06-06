@@ -4,17 +4,15 @@ using System.Collections.Generic;
 
 public class DayUI : MonoBehaviour
 {
-    public Transform statusBarParent; // Parent object for status bars
+    public Transform statusBarParent;
 
     public void UpdateStatusBar(List<Assignment> assignments)
     {
-        // Clear existing status bars
         foreach (Transform child in statusBarParent)
         {
             Destroy(child.gameObject);
         }
 
-        // Create new status bars based on assignments
         foreach (var assignment in assignments)
         {
             GameObject statusBar = new GameObject("StatusBar", typeof(Image));

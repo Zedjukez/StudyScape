@@ -12,18 +12,21 @@ public class UIManager : MonoBehaviour
     public GameObject planning; // GameObject for Planning panel
     public GameObject shop; // GameObject for Shop panel
     public TextMeshProUGUI coinsText; // UI Text component to display coins
+    public TextMeshProUGUI xpText; // UI Text component to display XP
 
     public Sprite dropDownSprite;
     public Sprite dropUpSprite;
 
     public int currentFunctionIndex = 0; // 0 for Home, 1 for Agenda, 2 for Planning, 3 for Shop
     private int coins = 50; // Starting coins
+    private int xp = 0; // Starting XP
 
     private void Start()
     {
         // Initially, set only the Home bump and function panel active
         ActivateFunction(0);
         UpdateCoinsUI();
+        UpdateXPUI();
     }
 
     public void SelectMainFunction(int index)
@@ -109,10 +112,30 @@ public class UIManager : MonoBehaviour
         return false;
     }
 
+    public void AddXP(int amount)
+    {
+        xp += amount;
+        UpdateXPUI();
+    }
+
     private void UpdateCoinsUI()
     {
         // Update the UI text component to display coins
         coinsText.text = coins.ToString();
+    }
+
+    private void UpdateXPUI()
+    {
+        // Update the UI text component to display XP
+        xpText.text = xp.ToString();
+    }
+
+    public void ActivateWindow(GameObject activated)
+    {
+        if (activated.transform.parent != null)
+        {
+            activated.SetActive(true);
+        }
     }
 
     public void CloseParentWindow(GameObject child)
@@ -121,14 +144,6 @@ public class UIManager : MonoBehaviour
         if (child.transform.parent != null)
         {
             child.transform.parent.gameObject.SetActive(false);
-        }
-    }
-
-    public void ActivateWindow(GameObject activated)
-    {
-        if(activated.transform.parent != null)
-        {
-            activated.SetActive(true);
         }
     }
 }
